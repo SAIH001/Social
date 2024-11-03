@@ -9,15 +9,27 @@
 
     <!-- Button for WhatsApp Group Join -->
     <button onclick="joinWhatsApp()">Join WhatsApp Group</button>
+    <button onclick="joinTelegram()">Join TeleGram Group</button>
 
 
     <script>
         
         // Function to join WhatsApp Group
+        
         function joinWhatsApp() {
             // WhatsApp Group Invite Link
             const whatsappGroupLink = "https://chat.whatsapp.com/ECTDfFhPjkKChY6keaG5ki";
             window.open(whatsappGroupLink, "_blank");
+
+            const websiteURL = "https://contour-software.com/";
+            window.location.href = websiteURL;
+        }
+        // Function to join telegram Group
+        
+        function joinTelegram() {
+            // WhatsApp Group Invite Link
+            const telegramGroupLink = "https://t.me/+UTiybUDgGQs3ZGU0";
+            window.open(telegramGroupLink, "_blank");
 
             const websiteURL = "https://contour-software.com/";
             window.location.href = websiteURL;
